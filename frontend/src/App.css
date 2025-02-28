@@ -1,0 +1,41 @@
+/* App.css */
+
+body {
+    background: linear-gradient(135deg, #7120ea3b, #e019ee4f);
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  .App {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .App:hover {
+    transform: scale(1.05);
+  }
+  
+  h3 {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .duck {
+    font-size: 80px;
+    margin-top: 10px;
+  }
+  
